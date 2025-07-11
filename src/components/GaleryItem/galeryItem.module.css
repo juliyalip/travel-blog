@@ -1,0 +1,31 @@
+.card{
+    position: relative;
+  overflow: hidden;
+  background-color: #14142b;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:  0 4px 12px rgba(0,0,0, 04);
+  transition: transform 0.3s ease;
+  display: flex;
+padding: 20px;
+}
+
+.card:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.image{
+  width: 350px;
+margin-right: 30px;
+border-radius: 4px;
+}
+
+.textWrapper {
+  position: relative;
+  height: 100%;
+  padding: 4rem 0 4rem;
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

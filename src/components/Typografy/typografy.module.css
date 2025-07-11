@@ -1,0 +1,17 @@
+.base{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.description{
+    text-align: center;
+    }
+
+.title{
+    font-size: 24px;
+}
+
+.text{
+    white-space: pre-line;
+    font-size: 22px;
+}
