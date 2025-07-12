@@ -1,10 +1,8 @@
 import GaleryItem, { GaleryItemData } from "../GaleryItem/GaleryItem"
 import styles from './galeryList.module.css'
 
-
 interface GaleryListProp {
     items: GaleryItemData[],
-
 }
 
 export default function GaleryList({ items }: GaleryListProp) {

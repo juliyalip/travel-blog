@@ -1,5 +1,13 @@
 .header{
-    margin: 40px auto 40px 80px
+   margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: rgba(1, 1, 37, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header a{
@@ -24,4 +32,8 @@
 
 .link:not(:last-child){
     margin-right: 20px;
+}
+
+.nav{
+    margin-left: 80px;
 }
